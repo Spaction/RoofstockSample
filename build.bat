@@ -7,6 +7,6 @@ Rem dotnet dev-certs https -ep .\https\roofstock.pfx -p RoofstockSample1! --trus
 Rem copy /Y /V https\roofstock.pfx WebEndpoint\roofstock.pfx
 Rem copy /Y /V https\cert.* RoofstockSampleUI\cert.*
 
-docker build -f "E:\Users\Spaction\Desktop\WebEndpoint\WebEndpoint\Dockerfile" --force-rm -t roofstock_sample_api:1.0 "E:\Users\Spaction\Desktop\WebEndpoint"
+docker build -f "%CD%\WebEndpoint\Dockerfile" --force-rm -t roofstock_sample_api:1.0 "%CD%"
 
-docker build -f "E:\Users\Spaction\Desktop\WebEndpoint\RoofstockSampleUI\Dockerfile" -t roofstock_sample_ui:1.0 "E:\Users\Spaction\Desktop\WebEndpoint\RoofstockSampleUI"
+docker build -f "%CD%\RoofstockSampleUI\Dockerfile" -t roofstock_sample_ui:1git .0 "%CD%\RoofstockSampleUI"
