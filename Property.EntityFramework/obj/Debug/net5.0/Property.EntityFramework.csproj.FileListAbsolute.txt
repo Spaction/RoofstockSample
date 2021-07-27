@@ -1,0 +1,12 @@
+E:\Users\Spaction\Desktop\WebEndpoint\Property.EntityFramework\bin\Debug\net5.0\Property.EntityFramework.deps.json
+E:\Users\Spaction\Desktop\WebEndpoint\Property.EntityFramework\bin\Debug\net5.0\Property.EntityFramework.dll
+E:\Users\Spaction\Desktop\WebEndpoint\Property.EntityFramework\bin\Debug\net5.0\ref\Property.EntityFramework.dll
+E:\Users\Spaction\Desktop\WebEndpoint\Property.EntityFramework\bin\Debug\net5.0\Property.EntityFramework.pdb
+E:\Users\Spaction\Desktop\WebEndpoint\Property.EntityFramework\obj\Debug\net5.0\Property.EntityFramework.GeneratedMSBuildEditorConfig.editorconfig
+E:\Users\Spaction\Desktop\WebEndpoint\Property.EntityFramework\obj\Debug\net5.0\Property.EntityFramework.AssemblyInfoInputs.cache
+E:\Users\Spaction\Desktop\WebEndpoint\Property.EntityFramework\obj\Debug\net5.0\Property.EntityFramework.AssemblyInfo.cs
+E:\Users\Spaction\Desktop\WebEndpoint\Property.EntityFramework\obj\Debug\net5.0\Property.EntityFramework.csproj.CoreCompileInputs.cache
+E:\Users\Spaction\Desktop\WebEndpoint\Property.EntityFramework\obj\Debug\net5.0\Property.EntityFramework.dll
+E:\Users\Spaction\Desktop\WebEndpoint\Property.EntityFramework\obj\Debug\net5.0\ref\Property.EntityFramework.dll
+E:\Users\Spaction\Desktop\WebEndpoint\Property.EntityFramework\obj\Debug\net5.0\Property.EntityFramework.pdb
+E:\Users\Spaction\Desktop\WebEndpoint\Property.EntityFramework\obj\Debug\net5.0\Property.EntityFramework.csproj.AssemblyReference.cache

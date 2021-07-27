@@ -1,0 +1,6 @@
+E:\Users\Spaction\Desktop\WebEndpoint\PropertyDB\bin\Debug\PropertyDB.dacpac
+E:\Users\Spaction\Desktop\WebEndpoint\PropertyDB\bin\Debug\PropertyDB.dll
+E:\Users\Spaction\Desktop\WebEndpoint\PropertyDB\bin\Debug\PropertyDB.pdb
+E:\Users\Spaction\Desktop\WebEndpoint\PropertyDB\obj\Debug\PropertyDB.dll
+E:\Users\Spaction\Desktop\WebEndpoint\PropertyDB\obj\Debug\PropertyDB.pdb
+E:\Users\Spaction\Desktop\WebEndpoint\PropertyDB\obj\Debug\PropertyDB.sqlproj.AssemblyReference.cache

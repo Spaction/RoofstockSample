@@ -1,0 +1,57 @@
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col"></th>
+            <th scope="col">#</th>
+            <th scope="col">Address</th>
+            <th scope="col">Year Built</th>
+            <th scope="col">List Price ($)</th>
+            <th scope="col">Monthly Rent ($)</th>
+            <th scope="col">Gross Yield %</th>
+        </tr>
+    </thead>
+    <tbody *ngIf="!tableData">
+        Loading ...
+    </tbody>
+    <tbody *ngIf="tableData">
+        <tr *ngFor="let property of tableData; index as i">
+            <td>
+                <button type="button" class="btn btn-warning" (click)="SaveRow(property)">Save</button>
+            </td>
+            <th scope="row">{{ property.id }}</th>
+            <td class="d-flex flex-row flex-wrap">
+                <div class="p-2">
+                    <label class="pr-1">Address1:</label>{{ property.address.address1 }}
+                </div>
+                <div class="p-2">
+                    <label class="pr-1">Address2:</label>{{ property.address.address2 }}
+                </div>
+                <div class="p-2">
+                    <label class="pr-1">City:</label>{{ property.address.city }}
+                </div>
+                <div class="p-2">
+                    <label class="pr-1">Country:</label>{{ property.address.country }}
+                </div>
+                <div class="p-2">
+                    <label class="pr-1">County:</label>{{ property.address.county }}
+                </div>
+                <div class="p-2">
+                    <label class="pr-1">District:</label>{{ property.address.district }}
+                </div>
+                <div class="p-2">
+                    <label class="pr-1">State:</label>{{ property.address.state }}
+                </div>
+                <div class="p-2">
+                    <label class="pr-1">Zip:</label>{{ property.address.zip }}
+                </div>
+                <div class="p-2">
+                    <label class="pr-1">Zip+4:</label>{{ property.address.zipPlus4 }}
+                </div>
+            </td>
+            <td>{{ property.yearBuilt??'Not Built' }}</td>
+            <td>{{ property.listPrice | currency:'USD' }}</td>
+            <td>{{ property.monthlyRent | currency:'USD' }}</td>
+            <td>{{ (property.grossYieldPerc) | percent:'1.2-2' }}</td>
+        </tr>
+    </tbody>
+</table>

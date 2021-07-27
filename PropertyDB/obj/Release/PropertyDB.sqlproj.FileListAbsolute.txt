@@ -1,0 +1,9 @@
+E:\Users\Spaction\Desktop\WebEndpoint\PropertyDB\bin\Release\PropertyDB.dacpac
+E:\Users\Spaction\Desktop\WebEndpoint\PropertyDB\bin\Release\PropertyDB.dll
+E:\Users\Spaction\Desktop\WebEndpoint\PropertyDB\bin\Release\PropertyDB.pdb
+E:\Users\Spaction\Desktop\WebEndpoint\PropertyDB\obj\Release\Model.xml
+E:\Users\Spaction\Desktop\WebEndpoint\PropertyDB\obj\Release\refactor.xml
+E:\Users\Spaction\Desktop\WebEndpoint\PropertyDB\obj\Release\postdeploy.sql
+E:\Users\Spaction\Desktop\WebEndpoint\PropertyDB\obj\Release\predeploy.sql
+E:\Users\Spaction\Desktop\WebEndpoint\PropertyDB\obj\Release\PropertyDB.dll
+E:\Users\Spaction\Desktop\WebEndpoint\PropertyDB\obj\Release\PropertyDB.pdb
