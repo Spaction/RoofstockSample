@@ -9,4 +9,4 @@ Rem copy /Y /V https\cert.* RoofstockSampleUI\cert.*
 
 docker build -f "%CD%\WebEndpoint\Dockerfile" --force-rm -t roofstock_sample_api:1.0 "%CD%"
 
-docker build -f "%CD%\RoofstockSampleUI\Dockerfile" -t roofstock_sample_ui:1git .0 "%CD%\RoofstockSampleUI"
+docker build -f "%CD%\RoofstockSampleUI\Dockerfile" -t roofstock_sample_ui:1.0 "%CD%\RoofstockSampleUI"
