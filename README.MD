@@ -1,4 +1,4 @@
-#Roofstock Sample
+# Roofstock Sample
 
 Project is split into multiple pieces:
 
@@ -7,9 +7,9 @@ PropertyDB is the database project which will produce a DacPac for database depl
 RoofstockSampleUI is the angular app.
 WebEndpoint contains the Core endpoint.
 
-##How to Execute:
+## How to Execute:
 
-###Docker:
+### Docker:
 #### Requires only Docker Desktop\Docker installed
 All of the applications are set-up to run through docker in a docker network called roofstock-network for DNS naming resolution
 The PropertyDB will have its dacpac applied to a SQL Server express image. Running on Port 1433, username: sa, pwd: RoofstockSample1!
@@ -27,7 +27,7 @@ After that completes, running run.bat will create the network, and refresh any c
 Once done, running clean.bat will stop and remove the containers and images
 
 
-###Individually:
+### Individually:
 #### Requires Angular, .Net Core, SQl Server, Node.js \ npm
 
 Install the Dacpac on a SQL Server instance. It is expected to have the name RoofstockDb, if not, the connection strin in the API will need to be adjusted (in the appsettings.development.json file).
